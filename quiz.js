@@ -3,10 +3,10 @@ function checkAnswer() {
     const userAnswer = document.querySelector("input[name ="quiz,"]:checked")
     const correctAnswer = "4";
     if (parseInt(userAnswer.value) === correctAnswer) {
-        feedback.textContent = "correct! well done."
+        feedback.textContent = "Correct! Well done."
     }
     else {
-        feedback.textContent="that is incorrect. Try again"
+        feedback.textContent="That's incorrect. Try again!"
     }
 
 }
