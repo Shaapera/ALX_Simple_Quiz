@@ -2,7 +2,7 @@ const submitAnswer = document.getElementById("submit-answer")
 function checkAnswer() {
     const userAnswer = document.querySelector("input[name ="quiz,"]:checked").value
     const correctAnswer = "4";
-    if (parseInt(userAnswer) === correctAnswer) {
+    if (userAnswer=== correctAnswer) {
         feedback.textContent = "Correct! Well done."
     }
     else {
